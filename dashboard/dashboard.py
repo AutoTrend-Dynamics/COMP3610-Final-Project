@@ -11,7 +11,7 @@ from sklearn.preprocessing import PolynomialFeatures
 # Load and save the CSV Data
 @st.cache_data 
 def load_data():
-    df = pd.read_csv("Cars.csv") 
+    df = pd.read_csv("dashboard/Cars.csv") 
     df.dropna(subset=["Price", "Mileage", "Year", "Make", "State"], inplace=True)
     return df
 
