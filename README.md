@@ -38,5 +38,11 @@ Live Dashboard can be accessed: https://car-pricing-advisor.streamlit.app/
 
 To run locally:
 
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 ```bash
 streamlit run dashboard/dashboard.py
+```
