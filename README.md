@@ -39,4 +39,4 @@ Live Dashboard can be accessed: https://car-pricing-advisor.streamlit.app/
 To run locally:
 
 ```bash
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
